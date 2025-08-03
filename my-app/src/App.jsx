@@ -6,7 +6,7 @@ import DoctorProfile from './pages/DoctorProfile';
 
 const App = () => (
   <AppProvider>
-    <Router>
+    <Router basename="/Nirogyan-Assessment">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/doctor/:id" element={<DoctorProfile />} />
