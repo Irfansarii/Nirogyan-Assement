@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-
-const AppContext = createContext(null);
 import AOS from 'aos';
+const AppContext = createContext(null);
+
 export const AppProvider = ({ children }) => {
   const [selectedDoctor, setSelectedDoctor] = useState(() => {
     const storedDoctor = localStorage.getItem('selectedDoctor');
