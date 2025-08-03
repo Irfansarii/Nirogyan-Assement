@@ -25,7 +25,7 @@ const DoctorProfile = () => {
           <Card className="shadow-lg border-0 rounded-4">
             <Card.Img
               variant="top"
-{/*               src={`/${selectedDoctor.image}`} */}
+/*               src={`/${selectedDoctor.image}`} */
             src={`${process.env.PUBLIC_URL}/${selectedDoctor.image}`}
               alt={selectedDoctor.name}
               className="rounded-top-4"
